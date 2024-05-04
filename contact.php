@@ -54,7 +54,7 @@
         $name = $_POST['name'] ?? '';
         $email = $_POST['email1'] ?? '';
         $message = $_POST['message1'] ?? '';
-		$link = mysqli_connect('localhost', 'root', '', 'club');
+		$link = mysqli_connect('localhost', 'root', '', 'club2');
 
 		if (!$link) {
             die("Connection failed: " . mysqli_connect_error());
@@ -67,7 +67,7 @@
     
         if (($success)and(!($name==null))) {?>
         
-            echo"Your comment successfully sended.";
+            <p style="border: 2px solid #3CB043;background-color:#3CB043; text-align:center;"> Your comment successfully sended.</p>
 			<?php
         } else {
         
