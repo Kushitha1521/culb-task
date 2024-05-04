@@ -16,7 +16,7 @@
         $password = $_POST['fpassword'] ?? '';
         $repassword = $_POST['frepassword'] ?? '';
 
-        $link = mysqli_connect('localhost', 'root', '', 'club');
+        $link = mysqli_connect('localhost', 'root', '', 'club2');
         ?>
          
         
