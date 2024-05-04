@@ -20,7 +20,7 @@
 
        
 
-        $link = mysqli_connect('localhost', 'root', '', 'club');/*connect to database*/
+        $link = mysqli_connect('localhost', 'root', '', 'club2');/*connect to database*/
         ?>
         
         <?php
